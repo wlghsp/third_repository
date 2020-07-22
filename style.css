@@ -1,0 +1,39 @@
+body {
+  background-color: wheat;
+}
+
+label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#user_id,
+#user_pw {
+  background-color: blue;
+  font-size: larger;
+}
+
+.pwAsk {
+  width: 200px;
+  height: 50px;
+  background-color: powderblue;
+}
+
+#pwAsk_answer {
+  font-size: x-large;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: plum;
+}
+
+#content {
+  background-color: palegreen;
+  border-color: rebeccapurple;
+  border-style: double;
+}
+
+#join_summit {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+}
