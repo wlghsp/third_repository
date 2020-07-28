@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>토스 연습</title>
+    <style>
+      * {
+        font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
+      }
+      .whole {
+        height: 400px;
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+      }
+      .left {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 70px;
+      }
+
+      .sentence1 {
+        font-weight: bold;
+        font-size: 38px;
+        margin-bottom: 10px;
+        opacity: 0.7;
+      }
+      .sentence2 {
+      }
+
+      .view_detail a {
+        color: #3182f6;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      .bank_boxes {
+        margin-top: 100px;
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+        height: 70px;
+        width: 100%;
+        box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05),
+          0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09);
+      }
+      .images {
+        width: 28px;
+        height: 28px;
+        margin-left: 10px;
+      }
+      .text {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+      }
+      .name {
+        opacity: 0.8;
+        font-size: 15px;
+      }
+      .balance {
+        font-weight: 700;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="whole">
+      <div class="left">
+        <h2 class="sentence1">계좌 관리는 번거롭지만<br />토스는 쉽습니다</h2>
+
+        <div class="sentence2">
+          간편한 인증 한 번으로<br />
+          소유한 계좌를 한 번에 관리할 수 있습니다.
+        </div>
+        <div class="view_detail">
+          <a href="">자세히 알아보기 ></a>
+        </div>
+      </div>
+      <div class="bank_boxes">
+        <div class="box">
+          <img class="images" src="images\logo_1.png" alt="국민은행 로고" />
+          <div class="text">
+            <div class="name">국민은행</div>
+            <div class="balance">2,134,000원</div>
+          </div>
+        </div>
+        <div class="box">
+          <img class="images" src="images\logo_2.png" alt="신한은행 로고" />
+          <div class="text">
+            <div class="name">신한은행</div>
+            <div class="balance">1,126,000원</div>
+          </div>
+        </div>
+        <div class="box">
+          <img class="images" src="images\logo_3.png" alt="하나은행 로고" />
+          <div class="text">
+            <div class="name">하나은행</div>
+            <div class="balance">684,000원</div>
+          </div>
+        </div>
+        <div class="box">
+          <img class="images" src="images\logo_4.png" alt="우리은행 로고" />
+          <div class="text">
+            <div class="name">우리은행</div>
+            <div class="balance">339,050원</div>
+          </div>
+        </div>
+        <div class="box">
+          <img class="images" src="images\logo_5.png" alt="농협은행 로고" />
+          <div class="text">
+            <div class="name">농협은행</div>
+            <div class="balance">1,412,000원</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
